@@ -18,24 +18,24 @@ body {
 
 .post-header {
    display: flex;
+   justify-content: space-between;
    border: 0px;
    margin: 0px;
    font-size: 40px;
+   padding: 2px;
+}
+
+.left-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+#header-paragraph {
+    font-size: 20px;
 }
 
 .post-body {
     font-size: 30px;
-}
-
-#header-text {
-    margin: 0%;
-    border: 0%;
-    font-size: 20px;
-}
-
-#three-dots {
-    position: absolute;
-    left: 950px;
 }
 
 .photo-img {
@@ -43,9 +43,12 @@ body {
     width: 500px;
 }
 
+
 .post-icons {
     display: flex;
+    justify-content: space-between;
     font-size: 30px;
+    padding: 2px;
 }
 
 
@@ -54,14 +57,9 @@ font-size: 18px;
 }
 
 p {
-    margin: 0px;
+    margin: 5px;
 }
 
 #second-paragraph {
    margin-top: 10px;
-}
-
-#bookmark-icon {
-    position: absolute;
-    left: 940px;
 }

@@ -1,8 +1,3 @@
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
-
 body {
     background-color: black;
 }
@@ -23,9 +18,10 @@ body {
    display: flex;
    justify-content: space-between;
    border: 0px;
-   margin: 0px;
+   margin: 7px;
    font-size: 40px;
-   padding: 2px;
+   padding: 10px 7px 10px 7px;
+   height: 8%;
 }
 
 .left-icons {
@@ -35,10 +31,12 @@ body {
 
 #header-paragraph {
     font-size: 20px;
+    margin: 5px;
 }
 
 .post-body {
     font-size: 30px;
+    margin: 7px;
 }
 
 .photo-img {
@@ -53,14 +51,15 @@ body {
     font-size: 30px;
     padding: 2px;
 }
-
-
+i {
+    padding: 5px;
+}
 .post-body {
 font-size: 18px;
 }
 
 p {
-    margin: 5px;
+    margin: 20px 7px; 
 }
 
 #second-paragraph {
